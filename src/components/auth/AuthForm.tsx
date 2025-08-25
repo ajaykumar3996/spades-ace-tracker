@@ -71,7 +71,7 @@ export const AuthForm = ({ onLogin }: AuthFormProps) => {
       <Card className="w-full max-w-md bg-slate-800/50 border-slate-700">
         <CardHeader className="text-center">
           <div className="flex items-center justify-center mb-4">
-            <Spade className="h-8 w-8 text-blue-400 mr-2" />
+            {/* <Spade className="h-8 w-8 text-blue-400 mr-2" /> */}
             <CardTitle className="text-2xl text-white">
               Spades Scorecard
             </CardTitle>
