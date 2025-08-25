@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Spades theme colors
+				'table-green': 'hsl(var(--table-green))',
+				'felt-green': 'hsl(var(--felt-green))',
+				gold: 'hsl(var(--gold))',
+				'gold-muted': 'hsl(var(--gold-muted))',
+				'spade-black': 'hsl(var(--spade-black))',
+				'card-white': 'hsl(var(--card-white))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

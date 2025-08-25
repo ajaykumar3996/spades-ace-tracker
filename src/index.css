@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Card table theme - rich greens and golds */
+    --background: 140 30% 8%;
+    --foreground: 45 100% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 140 25% 12%;
+    --card-foreground: 45 100% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 140 25% 12%;
+    --popover-foreground: 45 100% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 45 95% 55%;
+    --primary-foreground: 140 30% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 140 20% 18%;
+    --secondary-foreground: 45 100% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 140 15% 15%;
+    --muted-foreground: 45 30% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 80% 45%;
+    --accent-foreground: 140 30% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 45 100% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 140 20% 20%;
+    --input: 140 20% 20%;
+    --ring: 45 95% 55%;
 
-    --radius: 0.5rem;
+    /* Custom spades theme colors */
+    --table-green: 140 30% 10%;
+    --felt-green: 140 35% 12%;
+    --gold: 45 95% 55%;
+    --gold-muted: 45 70% 40%;
+    --spade-black: 220 15% 15%;
+    --card-white: 45 100% 98%;
+
+    /* Gradients */
+    --gradient-table: linear-gradient(135deg, hsl(var(--table-green)), hsl(var(--felt-green)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-muted)));
+    --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--spade-black)));
+
+    /* Shadows */
+    --shadow-card: 0 8px 24px -4px hsl(140 30% 5% / 0.6);
+    --shadow-gold: 0 4px 16px -2px hsl(var(--gold) / 0.3);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
