@@ -27,7 +27,7 @@ export const Dashboard = ({ user, onLogout }: DashboardProps) => {
   const [filter, setFilter] = useState<"all" | "in-progress" | "completed">(
     "all"
   );
-  const [sort, setSort] = useState({ key: "createdAt", order: "desc" });
+  const [sort, setSort] = useState<{ key: string; order: "asc" | "desc" }>({ key: "createdAt", order: "desc" });
   const [currentPage, setCurrentPage] = useState(1);
 
   const filteredAndSortedGames = games
